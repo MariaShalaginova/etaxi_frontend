@@ -1,0 +1,67 @@
+.title {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrows {
+    height: fit-content;
+    margin-top: 90px;
+}
+.card {
+    width: 40%;
+    height: 633px;
+}
+
+.img img {
+    width: 100%;
+    position: relative;
+    z-index: 20;
+}
+
+.textBlock {
+    width: 100%;
+    height: fit-content;
+    padding: 100px 25px 45px 60px;
+    border-radius: 20px;
+    border: 10px solid var(--main-colors-dark-fiolet, #5112AD);
+    background: var(--white, #FFF); 
+    position: relative;
+    top: -80px;
+    z-index: 1;
+}
+
+.model {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tech p {
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+}
+
+.take {
+    margin-top: 40px;
+}

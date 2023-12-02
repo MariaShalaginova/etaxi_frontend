@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    /* width: 100%; */
+    width: 1440px;
+    align-items: center;
+}
+  
+/* .location {
+    text-align: center;
+    padding: 0px 10px;
+    position: relative;
+    color: #BFC4CE;
+    font-family: "pf-din-light", Arial, sans-serif;
+    font-size: 18px;
+}
+
+::selection {
+    background-color: #9a545b;
+    color: #fff;
+} */
+

@@ -1,0 +1,52 @@
+.locationPopup {
+    /* display: none; */
+    position: fixed;
+    z-index: 100;
+    top: 95px;
+    left: 200px;
+    width: 230px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+    color: #333;
+    font-family: "pf-din-reg", Arial, sans-serif;
+    text-align: left;
+    border-radius:1px solid black;
+}
+
+.ask {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.btnWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .triangle {
+    width: 28px;
+    height: 23px;
+    background-color: white;
+    border-radius:1px solid black;
+    clip-path: polygon(0px 0, 28px 0px, 0 23px);
+  } */
+
+  .hide {
+    display: none
+  }
+
+  .locationCityPopup {
+    width: 74%;
+    height: auto;
+    background-color: #C7A4FF;
+    opacity: 50%;
+  }

@@ -1,39 +1,30 @@
 import React from 'react';
-import './App.css';
-import axios from 'axios';
+import { Routes, Route } from 'react-router-dom';
+import './index.css';
+import Cars from './components/cars/Cars';
+import Header from './components/header/Header';
+import Main from './components/main/Main';
+import ChooseCityPopup from './components/geolocation/ChooseCityPopup';
+import LocationPopup from './components/geolocation/LocationPopup';
+import Advantages from './components/advamtages/Advantages';
 
-class App extends React.Component{
-  state = { details: [], }
+function App() {
 
-  componentDidMount(){
-    let data;
-    axios.get('http://localhost:8000')
-    .then(res => {
-      data = res.data;
-      this.setState({
-        details: data
-      });
-    })
-    .catch(err => {
-      console.log(err);
-    })
-  }
-  render() {
-    return (
-      <div>
-        <header>Данные из Django</header>
-        <hr></hr>
-        {this.state.details.map((output, id) => (
-          <div key={id}>
-            <div>
-              <h2>{output.city}</h2>
-              <p>{output.phone}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    )
-  }
-}
+
+  return (
+    <div className="wrapper">
+    {/* <Header /> */}
+      <Routes>
+        <Route exact path="/" element={<Main />} /> 
+        {/* {/* <Route path="/game" element={<Game />} />  */}
+        <Route path="/ChooseCityPopup" element={<ChooseCityPopup />} />
+        <Route path="/LocationPopup " element={<LocationPopup />} />
+        <Route path="/Advantages " element={<Advantages />} />
+      </Routes> 
+    </div>
+  );
+};
 
 export default App;
+
+

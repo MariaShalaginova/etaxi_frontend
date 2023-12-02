@@ -1,0 +1,84 @@
+.button {
+    /* width: 50%; */
+    width: 178px;
+    height: 50px;
+    /* background-color: white; */
+    border-radius: 10px;
+    background: var(--blue, #5112AD);
+    border: 1px solid black;
+    color: var(--main-colors-white, var(--white, #FFF));
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px; 
+    /* color: rgba(255, 255, 255, 1); */
+}
+
+.button:hover {
+    /* background-color: rgba(39, 93, 191, 1); */
+    cursor: pointer;
+}
+
+
+.whiteButton {
+    background-color: white;
+}
+
+.transparentButton {
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.violetButton, .liteVioletButton {
+    height: 33px;
+    border-radius: 5px;
+    width: 48%;
+    font-size: 12px;
+}
+
+.violetButton {
+    width: 365px;
+    height: 70px;
+    border-radius: 10px;
+    background: var(--blue, #5112AD); 
+    color: var(--main-colors-white, var(--white, #FFF));
+    font-family: 'Gilroy';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px; 
+}
+
+.liteVioletButton {
+   background-color: rgba(95, 0, 251, 0.1);
+   color: black;
+   border-color: rgba(95, 0, 251, 0.1);
+}
+
+.button:active {
+    background-color: rgba(19, 73, 171, 1);
+}
+/* 
+@media screen and (max-width: 1440px) and (max-width: 744px) {
+    
+    .button {
+        height: 58px;
+        font-size: 18px;
+        line-height: 22px;
+        width: 100%;
+    }
+}    
+
+@media screen and (max-width: 375px) {
+    
+    .button {
+        height: 54px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}     */

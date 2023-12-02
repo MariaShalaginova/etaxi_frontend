@@ -1,0 +1,55 @@
+.rectangles {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    /* transition: 0.3s ease */
+}
+
+.title {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.icon, .handsIcon, .lowIcon, .iconOpacity, .iconHandsOpacity,.lowIconOpacity {
+    position: relative;
+    z-index: 100;
+    left: 34%;
+    top: -56%;
+}
+
+.handsIcon {
+    left: 32%;
+}
+
+.lowIcon, .lowIconOpacity{
+    left:30%
+}
+
+.text, .textBlack {
+    position: relative;
+    z-index: 100;
+    left: -8%;
+    top: -55%;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 100;
+    font-family:'Gilroy-Bold', sans-serif;
+    line-height: 38px;
+}
+
+.textBlack {
+    color: black;
+    font-size: 20px;
+    font-family:'Gilroy-Bold', sans-serif;
+}
+
+.iconOpacity, .iconHandsOpacity,.lowIconOpacity {
+    opacity: 50%;
+    left:37%;
+}
+
+.iconHandsOpacity, .purpleMan, .lowIconOpacity  {
+    left: 34%;
+}

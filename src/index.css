@@ -1,13 +1,77 @@
+@import url('https://fonts.cdnfonts.com/css/murs-gothic');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&family=Open+Sans:wght@300;400&family=Roboto&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Murs Gothic', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* фон */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: #FFE604;
+  position: relative;
+  background-image: url(http://localhost:3000/static/media/road.f976f005f3c7be3a4d19.png);
+/* } */ 
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+
+body * {
+  box-sizing: border-box;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Murs Gothic', sans-serif;
+}
+
+ /* @font-face {
+  src: url("../public/fonts/Gilroy-ExtraBold.otf");
+   font-family: sans-serif;
+  font-style: normal;
+  letter-spacing: 0.01em; 
+ }  */
+
+.wrapper {
+  display: flex;
+	flex-direction: column;
+  /* height: auto; */
+  margin: 0 auto;
+  max-width: 1640px;
+  /* min-height: 768px; */
+  flex-grow: 1;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100vw;
+  /* height: 100vh; */
+  height: auto;
+  /* background-color: #FFE604; */
+  background-color: #FFE604;
+position: relative;
+background-image: url(http://localhost:3000/static/media/road.f976f005f3c7be3a4d19.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* width:1440px; */
+  width: 88%;
+}
+
+h1 {
+  
+font-family: "Murs Gothic";
+font-size: 60px;
+font-style: normal;
+font-weight: 800;
+line-height: 80px;
 }
