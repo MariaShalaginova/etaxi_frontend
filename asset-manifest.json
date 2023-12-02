@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/etaxi/static/css/main.8d757c6a.css",
+    "main.js": "/etaxi/static/js/main.c19c057d.js",
+    "static/media/car.png": "/etaxi/static/media/car.cb9965136686555c8658.png",
+    "static/media/volume_icon.svg": "/etaxi/static/media/volume_icon.3f2d93ee00331bfc3b217f7ca1c8d876.svg",
+    "static/media/hands.svg": "/etaxi/static/media/hands.fd7ea20f41d3c9dbf223b8cd2cf77f3a.svg",
+    "static/media/purple_hands.svg": "/etaxi/static/media/purple_hands.78e77c5743d4200e3d4838203e5fd4c7.svg",
+    "static/media/akpp_icon.svg": "/etaxi/static/media/akpp_icon.cb1bed99793f60db84c1dc8d65c1f963.svg",
+    "static/media/purple_arrow.svg": "/etaxi/static/media/purple_arrow.ccc9afc1fd7dcff2b5a48e2967dbceb4.svg",
+    "static/media/purple_fire.svg": "/etaxi/static/media/purple_fire.45fefed7b32a857dc309c1e69dab39a2.svg",
+    "static/media/fire.svg": "/etaxi/static/media/fire.cf056e17a3388065e78f394ea0271971.svg",
+    "static/media/purple_box_icon.svg": "/etaxi/static/media/purple_box_icon.a0e0e7b6d6634287a792efee55f9e6ce.svg",
+    "static/media/box.svg": "/etaxi/static/media/box.b60c0b489b29265b9aa65182992e7187.svg",
+    "static/media/avatar.svg": "/etaxi/static/media/avatar.f7327faca59c14cd908d140ad3988d44.svg",
+    "static/media/purple_man.svg": "/etaxi/static/media/purple_man.d698666358d7164fe30e5e2d7e876973.svg",
+    "static/media/purple_blank.svg": "/etaxi/static/media/purple_blank.0da3296b9d8bf388c7c8b7a6228d4739.svg",
+    "static/media/blank_icon.svg": "/etaxi/static/media/blank_icon.821aaa31580731366157f72a4b0e7cb7.svg",
+    "static/media/violet-location.svg": "/etaxi/static/media/violet-location.c22aa626a97d8fa4383ac60a5eb48f87.svg",
+    "index.html": "/etaxi/index.html",
+    "static/media/ruble_icon.svg": "/etaxi/static/media/ruble_icon.e0e4bd47bb41b70ce1b2cb6aa881bc5f.svg",
+    "static/media/location.svg": "/etaxi/static/media/location.65e003d52cae27729c61829c35d4279e.svg",
+    "static/media/logo.svg": "/etaxi/static/media/logo.6206d972aff3895a1266b30197a6aaab.svg",
+    "main.8d757c6a.css.map": "/etaxi/static/css/main.8d757c6a.css.map",
+    "main.c19c057d.js.map": "/etaxi/static/js/main.c19c057d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d757c6a.css",
+    "static/js/main.c19c057d.js"
+  ]
+}
